@@ -1,0 +1,31 @@
+
+    .neon {
+      fill: none;
+      stroke: #fff;
+      stroke-width: 5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 0 100%;
+      animation: neon-animation 2s linear infinite;
+    }
+    @keyframes neon-animation {
+      0% {
+        stroke-dashoffset: 0;
+        stroke: #ff00ff;
+      }
+      25% {
+        stroke-dashoffset: 0;
+        stroke: #00ffff;
+      }
+      50% {
+        stroke-dashoffset: 0;
+        stroke: #ffff00;
+      }
+      75% {
+        stroke-dashoffset: 0;
+        stroke: #ff0000;
+      }
+      100% {
+        stroke-dashoffset: 0;
+        stroke: #ff00ff;
+      }
